@@ -223,6 +223,20 @@ body{
     padding: 140px 0;
 }
 
+/* sponsor-area */
+.your-sponsors-area
+{
+    padding: 140px 0;
+}
+
+.your-sponsors-area .theme-text{
+    margin-bottom: 50px;
+}
+.singal-sponsors img{
+    height: 55px;
+    width: auto;
+}
+
 /* mediao quriews */
 
 @media (max-width:991px){
@@ -261,5 +275,22 @@ body{
          margin-bottom: 30px;
     }
 
+    .your-task-area{
+        padding: 80px 0;
+    }
 
+    .your-sponsors-area
+    {
+        padding-top: 80px;
+        padding-top: 30px;
+    }
+
+    .singal-sponsors {
+        margin-bottom: 50px;
+    }
+
+    .your-sponsors-area
+    {
+    padding: 80px 0;
+    }
 }
