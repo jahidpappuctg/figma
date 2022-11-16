@@ -155,12 +155,12 @@ body{
 }
 
 .single-pricing{
-    color:#FFFFFF;
     padding: 40px 44px;
     border: 1px solid #FFE492;
     border-radius: 10px;
 }
 .single-pricing h4{
+    
     font-size: 24px;
     line-height: 36px
 }
@@ -192,19 +192,15 @@ body{
    text-decoration: none;
 }
 .special-price{
+    padding: 80px 44px;
     background-color: #043873;
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
+.special-price h2
+{
+   color: #FFE492;
+}
 
 
 
@@ -234,9 +230,17 @@ body{
         box-shadow: none;
     }
 
-    .header-area .nav-link{
+    .header-area .nav-link
+    {
         position: relative;
     }
 
+    .pricing-area{
+            padding: 80px 0;
+         }
+    .special-price{
+         margin-bottom: 30px;
+    }
+
+
 }
-    
