@@ -203,6 +203,19 @@ body{
 }
 
 
+/* your-work-area */
+
+.your-work-area{
+    background-color: #043873;
+    padding: 140px 0;
+}
+
+.your-work-area .theme-text h3{
+    color: #fff;
+}
+.your-work-area .theme-text p{
+    color: #fff;
+}
 
 /* mediao quriews */
 
