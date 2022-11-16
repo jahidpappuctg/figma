@@ -217,6 +217,12 @@ body{
     color: #fff;
 }
 
+/* your-task-area */
+
+.your-task-area{
+    padding: 140px 0;
+}
+
 /* mediao quriews */
 
 @media (max-width:991px){
