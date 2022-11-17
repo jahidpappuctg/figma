@@ -237,6 +237,42 @@ body{
     width: auto;
 }
 
+
+/* apps-area */
+
+.apps-area{
+    padding: 140px 0;
+    background-image: url(images/appsbg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.apps-area .theme-text h3{
+    color: #fff;
+}
+.apps-area .theme-text p{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* mediao quriews */
 
 @media (max-width:991px){
@@ -338,5 +374,13 @@ body{
     .your-sponsors-area
     {
     padding: 80px 0;
+    }
+
+    .apps-area{
+        padding: 80px 0; 
+    }
+
+    .apps-image{
+        margin-bottom: 50px;
     }
 }
