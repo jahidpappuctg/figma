@@ -358,9 +358,8 @@ body{
 } 
 
 .trial-img a{
-   margin: 0 28px;
-   text-align: center;
-    
+   margin: 0 20px;
+    text-decoration: none;    
 } 
 
 
@@ -486,6 +485,24 @@ body{
     .trial-area{
         padding: 80px 0; 
         background-color: #043873;
+    }
+ 
+.trial-text h3{
+    font-size: 36px; 
+    padding-bottom: 15px;
+    line-height: auto;
+    }
+
+    .trial-area p{
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .trial-area .theme-button{
+        margin: 20px 0;
+    }
+    .trial-area a{
+        margin: 0;
+        margin-right: 20px;
     }
     
 }
