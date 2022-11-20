@@ -408,8 +408,25 @@ body{
 .foooter-top{
    margin-bottom: 60px;
 }
-.foooter-bottom{
-    margin-bottom: 60px;
+.dropdown-lan a{
+    text-decoration: none;
+    color:#fff;
+}
+.dropdown-lan i{
+    margin-right: 5px;
+}
+
+.dropdown-menu li{
+    color:#F7F7EE;
+}
+.footer-bottom{
+    padding: 32px 0;
+    border-top: 1px solid #F7F7EE;
+}
+.footer-social a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 32px;
 }
 /* mediao quriews */
 
@@ -555,7 +572,6 @@ body{
     
     }
  
-
     .foooter-top{
         text-align: center;
     }
@@ -566,5 +582,23 @@ body{
     .footer-link{
         margin: 40px 0;
     }
+
+    .footer-bottom{
+        text-align: center;
+        border-top:0
+    }
+    .footer-social {
+        border-top: 1px solid #F7F7EE;
+       text-align: center; 
+       padding-top: 32x;
+    }
     
+    .footer-social a{ 
+       text-align: center;
+        margin-left: 0;
+        padding: 0 16px;
+    }
+    .dropdown-lan, .dropdown-menu , .footer-copyright  {
+        margin-bottom: 20px;
+    }
 }
