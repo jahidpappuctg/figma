@@ -205,7 +205,16 @@ body{
 {
    color: #FFE492;
 }
+.all-pircelist .single-pricing img{
+    height: 21px;
+    width: 21px;
+    margin-right: 10px;
+}
 
+.pricing-area .owl-stage{
+    display: flex;
+    align-items: center;
+}
 
 /* your-work-area */
 
@@ -436,9 +445,11 @@ body{
 /* mediao quriews */
 
 @media (max-width:991px){
-    .theme-button{
+    .theme-button
+    {
         width: 100%;
         text-align: center;
+        margin-left: 0px;
     }
     .theme-button-small{
         width: 100%;
@@ -508,6 +519,22 @@ body{
     }
     .your-task-area .theme-button{
         margin-bottom: 30px;
+    }
+
+    .all-pircelist .owl-dots{
+        text-align: center;
+    }
+    
+    .pricing-area .owl-dots button{
+        height: 15px;
+        width: 15px;
+        background-color: #4F9CF9 !important;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+    
+    .pricing-area .owl-dots button.active{
+        background-color: #043873 !important; ;
     }
 
     .pricing-area{
@@ -605,5 +632,20 @@ body{
     }
     .dropdown-lan, .dropdown-menu , .footer-copyright  {
         margin-bottom: 20px;
+    }
+
+
+  
+}
+
+@media (max-width:12991px){
+    .header-area{
+        font-size: 16p;
+    }
+}
+
+@media (max-width:1199px){
+    .header-area{
+        font-size: 14px;
     }
 }
